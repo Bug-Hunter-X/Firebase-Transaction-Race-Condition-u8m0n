@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in Firebase transactions.  Multiple clients updating the same document concurrently can lead to unpredictable results. The `bug.js` file shows the flawed approach, while `bugSolution.js` provides a robust solution using unique identifiers to prevent race conditions.
